@@ -5,24 +5,28 @@
 
 /* Header e logo */
 header {
-    background-image: url('../img/pattern.png');
+    background-image: url('../../img/pattern.png');
     background-color: #4DA1FF;
     background-position: top center;
     height: 150px;
 }
 
 #logo {
-    padding-top: 80px; 
-    padding-left: 10px;
+    padding-top: 80px;
 }
 
 #logo img {
     width: 220px;
 }
 
-/* Container */
+/* Container e logo centrati */
+#container, #logo {
+    width: 980px;
+    margin: auto;
+}
+
 #container {
-    padding: 10px;
+    padding: 10px 0;
 }
 
 /* Sezione con titolo */
@@ -52,6 +56,11 @@ h1 {
 .image-section {
     font-size: 13px;
     padding-top: 20px;
+}
+
+.image-section img {
+    width: 48%; 
+    height: 300px;
 }
 
 /* Sezione contenuti */
@@ -104,9 +113,9 @@ footer div {
 }
 
 .footer-image {
-    background-image: url('../img/monitor.jpg');
+    background-image: url('../../img/monitor.jpg');
 }
 
 .footer-image2 {
-    background-image: url('../img/graph.jpg');
+    background-image: url('../../img/graph.jpg');
 }
