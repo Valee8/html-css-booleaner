@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+/* Header e logo */
 header {
     background-image: url('../img/pattern.png');
     background-color: #4DA1FF;
@@ -16,6 +17,45 @@ header #logo {
     padding-left: 10px;
 }
 
-main h1 {
+/* Container */
+#container {
+    padding: 10px;
+}
+
+/* Sezione con titolo */
+h1 {
     font-size: 45px;
+}
+
+.title-section div {
+    color: #848484;
+}
+
+.title-section .writeby {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title-section .writeby a {
+    color: #28B0E7;
+    text-decoration: none;
+}
+
+.title-section .date {
+    font-size: 15px;
+}
+
+/* Sezione con immagini */
+.image-section {
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+/* Sezione contenuti */
+.content-section {
+    padding-top: 20px;
+}
+
+.content-section p span {
+    background-color: yellow;
 }
