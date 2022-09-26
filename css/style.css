@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
 }
 
@@ -14,4 +14,8 @@ header #logo {
     height: 320px;
     padding-top: 80px; 
     padding-left: 10px;
+}
+
+main h1 {
+    font-size: 45px;
 }
